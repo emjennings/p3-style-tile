@@ -1,16 +1,40 @@
-img {
-	height: 150px;
+body {
+	font-family: 'Arvo', serif;
+	background: black;
+	color: white;
+}
 
+.container {
+	background: #0e1717;
+	border: ;
+	border-radius: 10px;
+
+}
+
+img {
+	height: 100px;
+
+}
+
+h1, h2, h3 {
+	color: yellow;
 }
 
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h1, h2, h3, p {
+	margin: 15px 0 5px 0;
+	padding: 0;
 }
+
 
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
+}
+
+p {
+	line-height: 25px;
+	text-align: justify;
 }
 
 .color-1,
@@ -19,13 +43,47 @@ section {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 1px solid white;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
 }
 
+.color-1 {
+	background: yellow;
+}
+
+.color-2 {
+	background: white;
+}
+
+.color-3 {
+	background: royalblue;
+}
+
+
+li {
+	list-style: none;
+}
+
+li a {
+	line-height: 25px;
+}
+
+a:link {
+	color: royalblue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: royalblue;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
 
 /* Show Grid */
 .showgrid {
